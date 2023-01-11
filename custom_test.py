@@ -45,7 +45,7 @@ def main():
         description="Evaluate custom waveform files using pretrained MOSnet.")
     parser.add_argument("--rootdir", default=None, type=str,
                         help="rootdir of the waveforms to be evaluated")
-    parser.add_argument("--pretrained_model", default="./pre_trained/cnn_blstm.h5", type=str,
+    parser.add_argument("--pretrained_model", default="/content/MOSNet/pre_trained/cnn_blstm.h5", type=str,
                         help="pretrained model file")
     args = parser.parse_args()
 
