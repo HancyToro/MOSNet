@@ -99,6 +99,7 @@ def main():
 
         # write to list
         result = wavfile + " {:.3f}".format(Average_score[0][0])
+        print(result)
         results.append(result)
     
     # print average
